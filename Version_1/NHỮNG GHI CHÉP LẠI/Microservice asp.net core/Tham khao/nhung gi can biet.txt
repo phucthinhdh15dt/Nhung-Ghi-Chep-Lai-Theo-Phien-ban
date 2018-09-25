@@ -1,0 +1,2 @@
+https://dzone.com/articles/microservices-with-microsoft-aspdotnet-core-a-next
+https://github.com/tenor/RestBus/wiki/How-it-works

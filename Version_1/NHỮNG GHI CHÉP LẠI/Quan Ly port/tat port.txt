@@ -1,0 +1,2 @@
+tim port :    netstat -ano | findstr 32777
+tat port :    TASKKILL /F /PID 1233        (chay quyen admin)(so la id)

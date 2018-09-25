@@ -1,0 +1,27 @@
+1) insert
+1) Microsoft.EntityFrameworkCore
+2) Microsoft.EntityFrameworkCore.SqlServer
+3) Microsoft.EntityFrameworkCore.SqlServer.Design
+4) Microsoft.EntityFrameworkCore.Tools.DotNet
+
+
+2)add
+<ItemGroup>
+<DotNetCliToolReference include=”Microsoft.EntityFrameworkCore.Tools.DotNet” Version=”2.0.0” /> </ItemGroup>
+
+3)run
+1. Dotnet ef dbcontext scaffold “ ” Microsoft.EntityFramework.Core.SqlServer – o Models
+2. Dotnet ef dbcontext scaffold “ ” Microsoft.EntityFramework.Core.SqlServer – o Models –f //force to update
+
+"Server=PHUCTHINH\SQL;Database= ProductOderDemo; User ID=sa;Password=1;"
+"Data Source=PHUCTHINH\SQL;Initial Catalog=ProductOderDemo;User ID=sa;Password=1"
+1. Dotnet ef dbcontext scaffold 
+"Server=PHUCTHINH\SQL;Database= ProductOderDemo; User ID=sa;Password=1;" Microsoft.EntityFramework.Core.SqlServer – o Models
+
+Server=PHUCTHINH\SQL;Database=ProductOderDemo;User Id=sa;
+Password=1;
+
+Dotnet ef dbcontext scaffold "Server=PHUCTHINH\SQL;Database=ProductOderDemo;User Id=sa;Password=1;" Microsoft.EntityFramework.Core.SqlServer -o Models
+
+
+dotnet ef dbcontext scaffold "Server=PHUCTHINH\SQL;Database=ProductOderDemo;User Id=sa;Password=1;" Microsoft.EntityFrameworkCore.SqlServer -o Model

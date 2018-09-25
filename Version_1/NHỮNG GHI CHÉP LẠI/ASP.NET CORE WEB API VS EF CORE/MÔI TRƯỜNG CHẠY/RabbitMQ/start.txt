@@ -1,0 +1,4 @@
+host: http://localhost:15672/
+user and pass : guest
+
+

@@ -1,0 +1,4 @@
+RabbitMQ.Client
+Swashbuckle.AspNetCore
+Microsoft.EntityFrameworkCore.Tools.DotNet
+Microsoft.EntityFrameworkCore.SqlServer.Design

@@ -1,0 +1,1 @@
+https://docs.microsoft.com/vi-vn/aspnet/core/data/ef-mvc/migrations?view=aspnetcore-2.1

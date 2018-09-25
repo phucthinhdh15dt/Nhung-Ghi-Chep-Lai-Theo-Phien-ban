@@ -1,0 +1,56 @@
+open : Developer Command Prompt for Vs 2017
+->start ->ctrl+tab ->open
+step1 :
+	insert package nuget :
+		1) Microsoft.EntityFrameworkCore
+		2) Microsoft.EntityFrameworkCore.SqlServer
+		3) Microsoft.EntityFrameworkCore.SqlServer.Design
+		4) Microsoft.EntityFrameworkCore.Tools.DotNet
+	(vs tui(Microsoft.EntityFrameworkCore.SqlServer.Design,Microsoft.EntityFrameworkCore.Tools.DotNet ))
+
+
+step2 :edit pj.cs //cmd tai pj
+	<ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+  </ItemGroup>
+
+(-----------------------------------------------------------------------------------------------
+<ItemGroup>
+
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
+
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+
+   <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+
+  </ItemGroup>
+-------------------------------------------------------------------------------------------------)
+
+step3: run
+	dotnet ef dbcontext scaffold "Server=localhost, 1401;Database=tomssl_sql;User Id=sa;Password=Str0ngPassword!;" Microsoft.EntityFrameworkCore.SqlServer -o Model
+
+	update :
+	dotnet ef dbcontext scaffold "Server=PHUCTHINH\SQL;Database=ProductOderDemo;User Id=sa;Password=1;" Microsoft.EntityFrameworkCore.SqlServer -o Model -f
+
+
+   <ItemGroup>
+ 
+   <PackageReference Include="Microsoft.AspNetCore.App" />
+ 
+   <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+ 
+ </ItemGroup>
+
+
+  
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+  </ItemGroup>

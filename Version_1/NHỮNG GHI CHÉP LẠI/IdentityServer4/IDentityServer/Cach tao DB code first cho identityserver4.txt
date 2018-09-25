@@ -1,0 +1,26 @@
+Trang tao nhanh nhat
+http://docs.identityserver.io/en/release/quickstarts/8_entity_framework.html
+Trangweb tao userIdentity bang fisrt code 
+https://vivekcek.wordpress.com/tag/identityserver4-entity-framework/
+https://www.linkedin.com/pulse/securing-net-core-web-api-identityserver4-using-owner-dalvandi-2?trk=mp-author-card
+
+di chuyen du lieu migration :
+dotnet ef migrations add InitialIdentityServerPersistedGrantDbMigration1 -c PersistedGrantDbContext -o Data/PerDb
+dotnet ef migrations add InitialIdentityServerConfigurationDbMigration1 -c ConfigurationDbContext -o Data/ConfigDb
+dotnet ef migrations add InitialIdentityServerApplicationDbMigration -c ApplicationDbContext -o Data/Migrations/IdentityServer/ApplicationDb
+
+Cau lenh update theo context
+---------------------------
+dotnet ef database update --context ApplicationDbContext
+-------------------------
+
+Loi khong seed duoc Db Trong qickstack8 identityServer4:
+-------------------------------------------------------
+https://github.com/IdentityServer/IdentityServer4/issues/2156
+
+Dang ky 
+https://satvasolutions.com/combine-asp-net-identity-web-api-and-mvc-single-web-app/
+
+
+
+

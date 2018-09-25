@@ -1,0 +1,5 @@
+Khoi tao du an : Dotnet Core Essentials
+ Open a .NET Core project, right click on a .csproj, .fsproj or .sln file, and run .NET Core command from context menu: .NET Core Tools
+ASP.NET Core Snippets
+C# Extensions
+WilderMinds' ASP.NET Core Snippets

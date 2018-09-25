@@ -1,0 +1,29 @@
+docker stop $(docker ps -a -q) :xoa tat ca cac container dang chay
+docker-compose up --force-recreate --build :cap nhat lai image
+
+docker exec -it sql1 "bash"
+Password Thinh123456
+
+
+Lay dia chi ip cua container : (docker inspect -f "{{ .NetworkSettings.IPAddress }}" 1a0a057f2932)
+
+Loi khong chay host :la do chua share o dia c .
+
+docker run -d -p 1433:1433 npt/testimage:vision1 :chay image dong go
+docker commit a3d892475652 dbproduct/testimage:version1  :dong goi container thanh image (sql) (phai stop container moi dong goi duoc)
+
+Example :
+
+docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Br0ckLesnar!' -p 1433:1433 -d --name sqlinux --network=isolated_network microsoft/mssql-server-linux
+
+docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Str0ngPassword!' -p 1401:1433 -d --name=phucthinh --network=isolated_network microsoft/mssql-server-linux:latest
+
+
+
+
+Commit : 
+docker commit [id container ] phucthinh/testimages:version1 .
+
+
+thuong su dung : docker stop $(docker ps -aq)
+docker container prune .

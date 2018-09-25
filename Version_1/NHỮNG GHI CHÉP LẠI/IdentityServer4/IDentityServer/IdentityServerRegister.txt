@@ -1,0 +1,16 @@
+Dang ky 
+https://medium.com/@ozgurgul/asp-net-core-2-0-webapi-jwt-authentication-with-identity-mysql-3698eeba6ff8
+
+tao them doi tuong 
+https://fullstackmark.com/post/13/jwt-authentication-with-aspnet-core-2-web-api-angular-5-net-core-identity-and-facebook-login
+
+
+loi
+https://stackoverflow.com/questions/41679217/asp-net-core-identity-does-not-inject-usermanagerapplicationuser
+https://stackoverflow.com/questions/44483589/unable-to-resolve-service-for-type-microsoft-aspnetcore-identity-usermanager-w
+----------------------------------------------------------------------------------------------------------
+Dang ky dang nhap co gui token :identityserver4
+https://medium.com/@ozgurgul/asp-net-core-2-0-webapi-jwt-authentication-with-identity-mysql-3698eeba6ff8
+-----------------------------------------------------------------------------------------------------------
+Cac thu vien tot :
+FluentValidation

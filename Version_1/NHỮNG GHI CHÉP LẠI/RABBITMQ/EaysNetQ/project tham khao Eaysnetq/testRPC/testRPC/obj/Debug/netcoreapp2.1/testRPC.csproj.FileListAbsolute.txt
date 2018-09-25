@@ -1,0 +1,14 @@
+C:\Users\thinh\source\repos\testRPC\testRPC\bin\Debug\netcoreapp2.1\testRPC.deps.json
+C:\Users\thinh\source\repos\testRPC\testRPC\bin\Debug\netcoreapp2.1\testRPC.runtimeconfig.json
+C:\Users\thinh\source\repos\testRPC\testRPC\bin\Debug\netcoreapp2.1\testRPC.runtimeconfig.dev.json
+C:\Users\thinh\source\repos\testRPC\testRPC\bin\Debug\netcoreapp2.1\testRPC.dll
+C:\Users\thinh\source\repos\testRPC\testRPC\obj\Debug\netcoreapp2.1\testRPC.csproj.CoreCompileInputs.cache
+C:\Users\thinh\source\repos\testRPC\testRPC\obj\Debug\netcoreapp2.1\testRPC.RazorAssemblyInfo.cache
+C:\Users\thinh\source\repos\testRPC\testRPC\obj\Debug\netcoreapp2.1\testRPC.RazorAssemblyInfo.cs
+C:\Users\thinh\source\repos\testRPC\testRPC\obj\Debug\netcoreapp2.1\testRPC.AssemblyInfoInputs.cache
+C:\Users\thinh\source\repos\testRPC\testRPC\obj\Debug\netcoreapp2.1\testRPC.AssemblyInfo.cs
+C:\Users\thinh\source\repos\testRPC\testRPC\obj\Debug\netcoreapp2.1\testRPC.RazorTargetAssemblyInfo.cache
+C:\Users\thinh\source\repos\testRPC\testRPC\bin\Debug\netcoreapp2.1\testRPC.pdb
+C:\Users\thinh\source\repos\testRPC\testRPC\obj\Debug\netcoreapp2.1\testRPC.csprojAssemblyReference.cache
+C:\Users\thinh\source\repos\testRPC\testRPC\obj\Debug\netcoreapp2.1\testRPC.dll
+C:\Users\thinh\source\repos\testRPC\testRPC\obj\Debug\netcoreapp2.1\testRPC.pdb

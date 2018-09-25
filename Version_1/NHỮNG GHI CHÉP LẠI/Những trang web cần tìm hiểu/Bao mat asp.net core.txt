@@ -1,0 +1,1 @@
+https://docs.microsoft.com/en-us/aspnet/core/security/authentication/azure-active-directory/index?view=aspnetcore-2.1

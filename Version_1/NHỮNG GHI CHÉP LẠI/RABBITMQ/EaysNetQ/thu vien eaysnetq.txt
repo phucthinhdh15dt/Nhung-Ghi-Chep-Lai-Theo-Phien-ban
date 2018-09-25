@@ -1,0 +1,1 @@
+dotnet add package EasyNetQ-dotnet-core --version 2.0.2-radicalgeek-netc0001
